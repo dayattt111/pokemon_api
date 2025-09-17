@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.gridContainer {
+  width: 90%;
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
