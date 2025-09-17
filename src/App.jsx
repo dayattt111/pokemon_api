@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { getPokemon, getAllPokemon } from './Services/pokeService'
-import PokemonList from '../src/Pages/pokemonList'
+import { getPokemon, getAllPokemon } from './Services/pokeServices'
+import PokemonList from './Pages/pokeList'
 import './App.css';
 
 function App() {
